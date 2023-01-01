@@ -4,7 +4,7 @@ public class BinarySearch {
         int arr[] = {2, 5, 6, 12, 67, 89};
         int target = 2;
         int index = binarSearch(arr,target);
-        System.out.println(target+" Present at index "+index);
+        System.out.println(target + " Present at index " + index);
     }
 
     static int binarSearch(int arr[], int target) {
@@ -23,8 +23,7 @@ public class BinarySearch {
          else 
            end = mid - 1;
            
-       }
-        
+       }  
        return -1;
     }
 }
